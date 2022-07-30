@@ -1,8 +1,13 @@
 import { useEffect } from "react";
 
+// function useDocumentTitle(pageTitle) {
+//   useEffect(() => {
+//     document.title = pageTitle;
+//   }, [pageTitle]);
+// }
 function useDocumentTitle(pageTitle) {
   useEffect(() => {
-    document.title = pageTitle;
+    document.title = "Underreacted | Home";
   }, [pageTitle]);
 }
 
